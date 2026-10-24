@@ -164,3 +164,7 @@ jpeg-decoder = { opt-level = 3 }
 jpeg-encoder = { opt-level = 3 }
 png = { opt-level = 3 }
 miniz_oxide = { opt-level = 3 }
+
+
+[patch.crates-io]
+winit = { path = "../winit-patched" }
